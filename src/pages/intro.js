@@ -18,7 +18,7 @@ const data = {
     {
       id: 2,
       imgSrc: Secure,
-      altText: "Secure Contents",
+      altText: "Secured Contents",
       title: "our offerings",
       text: "what copenhagen vertigo offers : product and business development consultancy",
     },
