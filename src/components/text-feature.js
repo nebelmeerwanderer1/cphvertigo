@@ -5,6 +5,7 @@ export default function TextFeature({
   subTitle,
   title,
   description,
+  contact,
   btnName,
   btnURL = '#',
 }) {
@@ -22,6 +23,12 @@ export default function TextFeature({
       {description && (
         <Text as="p" className="description" sx={styles.description}>
           {description}
+        </Text>
+      )}
+
+      {contact && (
+        <Text as="p" className="description" sx={styles.description}>
+          {contact}
         </Text>
       )}
 

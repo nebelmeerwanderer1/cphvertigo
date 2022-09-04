@@ -6,7 +6,7 @@ import FeatureCardColumn from "components/feature-card-column.js"
 import Vector from "assets/ext_hangingwatches.jpg"
 import Editing from "assets/ext_mirror.jpg"
 import Speed from "assets/ext_reaching3.jpg"
-import Velocity from "assets/ext_cliff.jpg"
+import Velocity from "assets/ext_cliff11.jpg"
 
 const data = [
     {
