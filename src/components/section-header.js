@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Text, Heading } from 'theme-ui';
 
-export default function SectionHeader({ title, slogan, isWhite }) {
+export default function SectionHeader({ title, title2, title3, slogan, isWhite }) {
   return (
     <Box sx={{ variant: 'sectionHeader' }}>
       <Text
@@ -22,6 +22,24 @@ export default function SectionHeader({ title, slogan, isWhite }) {
         }}
       >
         {title}
+      </Heading>
+      <Heading
+        as="h3"
+        sx={{
+          variant: 'sectionHeader.title',
+          color: isWhite ? 'white' : 'heading_secondary',
+        }}
+      >
+        {title3}
+      </Heading>
+      <Heading
+        as="h2"
+        sx={{
+          variant: 'sectionHeader.title',
+          color: isWhite ? 'white' : 'heading_secondary',
+        }}
+      >
+        {title2}
       </Heading>
     </Box>
   );
