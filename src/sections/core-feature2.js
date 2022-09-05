@@ -9,7 +9,7 @@ import Secure from "assets/core-feature/cardano.svg";
 
 const data = {
   subTitle: "the blockchains we work with",
-  title: "the largest ecosystem that give you maximal global & local exposure",
+  title: "the largest ecosystem that give you maximum global & local exposure",
   features: [
     {
       id: 1,

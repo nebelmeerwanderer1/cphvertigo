@@ -27,7 +27,7 @@ const data = [
     id: 2,
     title: "sample nft marketplace",
     description:
-      "sample nft marketplace built using solidity, theGraph and nextjs. deployed on goerli",
+      "sample nft marketplace built using solidity, theGraph and nextjs. deployed on ethereum's testnet goerli",
     avatar: Avatar3,
     name: "application",
     designation: "august 2022",
@@ -50,7 +50,7 @@ const data = [
     id: 4,
     title: "blockchain and gatekeepers",
     description:
-      "gatekeepers will be critical for the future blockchain. short video on how they work. views are through the floor :-)",
+      "gatekeepers will be critical for the future regulatory compliant blockchain . short video on how they can work. views are through the floor :-)",
     avatar: Avatar4,
     name: "thought leadership",
     designation: "june 2022",
@@ -60,14 +60,14 @@ const data = [
   },
   {
     id: 5,
-    title: "esealing and timestamping",
+    title: "esealing on the blockchain",
     description:
-      "simple e-sealing and timestamping solutions showcasing how blockchain can support these function. components for creating a blockchain based signature service",
+      "simple e-sealing solution showcasing how blockchain can support trust services. components for creating a blockchain based signature service",
     avatar: Avatar4,
     name: "application",
     designation: "april 2022",
-    link: "https://notary.northstake.dk/",
-    linkname: "timestamping",
+    link: "http://filesealing.newtrust.co/",
+    linkname: "e-sealing",
     review: 4,
   },
   {
@@ -82,18 +82,30 @@ const data = [
     linkname: "youtube",
     review: 4,
   },
-  // {
-  //   id: 8,
-  //   title: "visit a local nft marketplace",
-  //   description:
-  //     "nfts are often created - 'minted' as it is called in web3 - locally so they are customized to specific needs. cphvertigo is also in on this game and you can have a peak at our solution and soon mint your first nft here.",
-  //   avatar: Avatar4,
-  //   name: "web3 hands-on experience",
-  //   designation: "August 2022",
-  //   // link: "tbd",
-  //   linkname: "tbd",
-  //   review: 4,
-  // },
+  {
+    id: 7,
+    title: "What do you own when you buy an NFT?",
+    description:
+      "important article from Galaxy that web3 ip rights - and hence the nft concept is in poor condition: 'without solving these detrimental problems of IP ownership, then the NFT landscape will evidently formulate into Web2 products that are marketed and disguised as Web3 products' ", 
+    avatar: Avatar4,
+    name: "thought paper",
+    designation: "August 2022",
+    link: "https://www.galaxy.com/research/insights/a-survey-of-nft-licenses-facts-and-fictions/",
+    linkname: "A Survey of NFT Licenses: Facts & Fictions",
+    review: 4,
+  },
+  {
+    id: 8,
+    title: "file timestamping on the blockchain",
+    description:
+      "simple e-sealing solution showcasing how blockchain can support trust services. a reminder that the blockchain's at its root is a tamper proof transaction trail",
+    avatar: Avatar4,
+    name: "application",
+    designation: "August 2022",
+    link: "https://notary.northstake.dk/",
+    linkname: "timestamping",
+    review: 4,
+  },
 ];
 
 

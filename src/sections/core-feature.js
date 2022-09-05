@@ -23,7 +23,7 @@ const data = {
       imgSrc: Secure,
       altText: "Secure Contents",
       title: "business development",
-      text: "we will help you integrate and roll out. know what you want to get from tokenized products. start by identifying something simple that makes a difference and has the potential to evolve.",
+      text: "we will help you integrate and roll out. know what you want to get from tokenized products and your regulatory stance. start by identifying something simple that makes a difference and has the potential to evolve.",
     },
   ],
 };

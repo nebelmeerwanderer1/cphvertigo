@@ -103,6 +103,30 @@ const data = [
     linkname: "tbd",
     review: 4,
   },
+  {
+    id: 9,
+    title: "there is a lot work on how to build a regulated framework that includes web3",
+    description:
+      "[forthcoming]",
+    avatar: Avatar4,
+    name: "5 things you need to be aware of (#4)",
+    designation: "September 2022",
+    // link: "tbd",
+    // linkname: "tbd",
+    review: 4,
+  },
+  {
+    id: 10,
+    title: "web3 refers to yet another evolution after web1 and web2",
+    description:
+      "web1 refers to the read-only internet in the 90s and early 2000s. web2 is the read-write web that began with social platforms and e-commerce portals. web3 refers to the read-write-own internet where we don't have to trust a few massive private companies (did someone say FAANG?).",
+    avatar: Avatar4,
+    name: "5 things  you need to be aware of (#5)",
+    designation: "September 2022",
+    // link: "tbd",
+    // linkname: "tbd",
+    review: 4,
+  },
 ];
 
 
