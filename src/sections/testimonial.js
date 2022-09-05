@@ -31,8 +31,8 @@ const data = [
     avatar: Avatar3,
     name: "application",
     designation: "august 2022",
-    link: "https://medium.com/p/b74ee6023be9",
-    linkname: "community contribution"
+    link: "https://nft-marketplace-thegraph.vercel.app/",
+    linkname: "nft marketplace"
   },
   {
     id: 3,
@@ -86,7 +86,7 @@ const data = [
     id: 7,
     title: "What do you own when you buy an NFT?",
     description:
-      "important article from Galaxy that web3 ip rights - and hence the nft concept is in poor condition: 'without solving these detrimental problems of IP ownership, then the NFT landscape will evidently formulate into Web2 products that are marketed and disguised as Web3 products' ", 
+      "important article from Galaxy that web3 ip rights - and hence the nft concept - is in poor condition: 'without solving these detrimental problems of IP ownership, then the NFT landscape will evidently formulate into Web2 products that are marketed and disguised as Web3 products' ", 
     avatar: Avatar4,
     name: "thought paper",
     designation: "August 2022",
