@@ -60,6 +60,7 @@ export default function CoreFeature() {
 
 const styles = {
   coreFeature: {
+    mt: [5, 5, 5, 5, 5, 5],
     py: [0, null, null, 2, null, 7],
     position: "relative",
     "&::before": {
