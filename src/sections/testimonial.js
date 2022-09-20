@@ -30,8 +30,8 @@ const data = [
       "sample nft marketplace built using solidity, theGraph and nextjs. deployed on ethereum's testnet goerli",
     avatar: Avatar3,
     name: "application",
-    designation: "august 2022",
-    link: "https://nft-marketplace-thegraph.vercel.app/",
+    designation: "september 2022",
+    link: "https://nftmintermarketplace.vercel.app/",
     linkname: "nft marketplace"
   },
   {
