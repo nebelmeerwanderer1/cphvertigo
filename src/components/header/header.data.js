@@ -19,7 +19,7 @@ export default [
   
   {
     path: "web3workflow",
-    label: "get some web3 experience",
+    label: "experience web3",
   },
   {
     path: "feature",

@@ -12,41 +12,42 @@ import Avatar4 from "assets/testimonial/avatar4.png";
 import Link from "next/link";
 
 const data = [
-  {
+    {
     id: 1,
+    title: "file timestamping on the blockchain",
+    description:
+      "simple e-sealing solution showcasing how blockchain can support trust services. a reminder that the blockchain's at its root is a tamper proof transaction trail",
+    avatar: Avatar4,
+    name: "application",
+    designation: "April 2022",
+    link: "https://notary.northstake.dk/",
+    linkname: "timestamping",
+    review: 4,
+    },
+    {
+    id: 2,
     title: "getting started guide",
     description:
       "a personal journey through the concordium developer documentation from scratch to deploying the piggy bank and cis1-wccd example smart contract on testnet.",
     avatar: Avatar2,
-    name: "article / rust",
+    name: "community contribution",
     designation: "May 2022",
     link: "https://medium.com/p/fc531eacef6e",
     linkname: "medium article"
-  },
-  {
-    id: 2,
-    title: "sample nft marketplace",
-    description:
-      "sample nft marketplace built using solidity, theGraph and nextjs. deployed on ethereum's testnet goerli",
-    avatar: Avatar3,
-    name: "application",
-    designation: "september 2022",
-    link: "https://nftmintermarketplace.vercel.app/",
-    linkname: "nft marketplace"
-  },
-  {
+    },
+    {
     id: 3,
-    title: "Why is regulation readiness becoming a recurrent topic in the blockchain sphere",
+    title: "esealing on the blockchain",
     description:
-      "in a nutshell: businesses cannot have one business model and set of standards when they offer services in the current setup - and another in web3.",
+      "simple e-sealing solution showcasing how blockchain can support trust services. components for creating a blockchain based signature service",
     avatar: Avatar4,
-    name: "interview",
-    designation: "August 2022",
-    link: "https://www.youtube.com/watch?v=pbe1Jt0wcXA",
-    linkname: "youtube",
+    name: "application",
+    designation: "May 2022",
+    link: "http://filesealing.newtrust.co/",
+    linkname: "e-sealing",
     review: 4,
-  },
-  {
+    },
+    {
     id: 4,
     title: "blockchain and gatekeepers",
     description:
@@ -57,31 +58,31 @@ const data = [
     link: "https://www.youtube.com/watch?v=YH3cohZG_Do&t=5s",
     linkname: "youtube",
     review: 4,
-  },
-  {
+    },
+    {
     id: 5,
-    title: "esealing on the blockchain",
-    description:
-      "simple e-sealing solution showcasing how blockchain can support trust services. components for creating a blockchain based signature service",
-    avatar: Avatar4,
-    name: "application",
-    designation: "april 2022",
-    link: "http://filesealing.newtrust.co/",
-    linkname: "e-sealing",
-    review: 4,
-  },
-  {
-    id: 6,
     title: "Blockchains and compliance readiness",
     description:
       "in the coming wave of regulatory inflow, the ultimate promise of blockchain and decentralization must not be forgotten. short video illustrating the sweet spot to aim for", 
     avatar: Avatar4,
-    name: "5 things you need to be aware of (#3)",
+    name: "thought leadership",
     designation: "june 2022",
     link: "https://www.youtube.com/watch?v=G6GudxTA730&t=29s",
     linkname: "youtube",
     review: 4,
-  },
+    },  
+    {
+    id: 6,
+    title: "Why is regulation readiness becoming a recurrent topic in the blockchain sphere",
+    description:
+      "in a nutshell: businesses cannot have one business model and set of standards when they offer services in the current setup - and another in web3.",
+    avatar: Avatar4,
+    name: "interview",
+    designation: "August 2022",
+    link: "https://www.youtube.com/watch?v=pbe1Jt0wcXA",
+    linkname: "youtube",
+    review: 4,
+  }, 
   {
     id: 7,
     title: "What do you own when you buy an NFT?",
@@ -93,18 +94,17 @@ const data = [
     link: "https://www.galaxy.com/research/insights/a-survey-of-nft-licenses-facts-and-fictions/",
     linkname: "A Survey of NFT Licenses: Facts & Fictions",
     review: 4,
-  },
+  },  
   {
     id: 8,
-    title: "file timestamping on the blockchain",
+    title: "sample nft marketplace",
     description:
-      "simple e-sealing solution showcasing how blockchain can support trust services. a reminder that the blockchain's at its root is a tamper proof transaction trail",
-    avatar: Avatar4,
+      "sample ethereum based nft marketplace built using solidity, theGraph and javascript. deployed on the goerli net",
+    avatar: Avatar3,
     name: "application",
-    designation: "August 2022",
-    link: "https://notary.northstake.dk/",
-    linkname: "timestamping",
-    review: 4,
+    designation: "september 2022",
+    link: "https://nftmintermarketplace.vercel.app/",
+    linkname: "nft marketplace"
   },
 ];
 

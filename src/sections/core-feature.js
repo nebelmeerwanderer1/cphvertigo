@@ -9,21 +9,21 @@ import Secure from "assets/core-feature/blocks.svg";
 
 const data = {
   subTitle: "what we offer",
-  title: "products : digital web3 products that make you stand out",
+  title: "digital web3 products that make you stand out",
   features: [
+    {
+      id: 2,
+      imgSrc: Secure,
+      altText: "Secure Contents",
+      title: "web3 business development",
+      text: "we will help you integrate and roll out. know what you want to get from tokenized products and your regulatory stance.",
+    },
     {
       id: 1,
       imgSrc: Briefcase,
       altText: "Smart Features",
       title: "web3 tokenized products",
-      text: "we will help you design and create. tokenized products feel and behave differently. ",
-    },
-    {
-      id: 2,
-      imgSrc: Secure,
-      altText: "Secure Contents",
-      title: "business development",
-      text: "we will help you integrate and roll out. know what you want to get from tokenized products and your regulatory stance. start by identifying something simple that makes a difference and has the potential to evolve.",
+      text: "we will help you design, create and implement. tokenized products feel and behave differently. ",
     },
   ],
 };

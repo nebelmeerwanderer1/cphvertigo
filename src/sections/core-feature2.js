@@ -12,18 +12,18 @@ const data = {
   title: "the largest ecosystem that give you maximum global & local exposure",
   features: [
     {
-      id: 1,
-      imgSrc: Briefcase,
-      altText: "Smart Features",
-      title: "don't get stuck in technology",
-      text: "product development should never be directed by technology. we can talk about products without involving technology and work with all web3 technologies.",
-    },
-    {
       id: 2,
       imgSrc: Secure,
       altText: "Secure Contents",
       title: "be guided by what is feasible",
       text: "good product development is guided and inspired by technology. we have first hand experience with the ethereum ecosystem. the world's largest and most powerful by far.",
+    },
+    {
+      id: 1,
+      imgSrc: Briefcase,
+      altText: "Smart Features",
+      title: "don't let your dreams get stuck in technology",
+      text: "product development should never be dictated by technology. we speak business and product language.",
     },
   ],
 };

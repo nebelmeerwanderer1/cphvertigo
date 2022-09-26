@@ -27,23 +27,16 @@ const data = {
       imgSrc: Secure,
       altText: "Secure Contents",
       title: "who we are",
-      text: "contact details for copenhagen vertigo : a one-person company by Keld Stehr Nielsen",
+      text: "contact details for copenhagen vertigo ",
     },    
         {
       id: 2,
       imgSrc: Secure,
       altText: "Secure Contents",
       title: "get some web3 experience",
-      text: "possibility to experience web3",
+      text: "gentle introduction to web3 and descriptions of the types of tokens that are used in blockchain and crypto",
     },
-    {
-      id: 1,
-      imgSrc: Briefcase,
-      altText: "Smart Features",
-      title: "the token economy",
-      text: "brief descriptions of the types of tokens that are used in blockchain and crypto",
-    },
-   
+       
   ],
 };
 

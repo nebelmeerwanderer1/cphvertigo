@@ -48,7 +48,7 @@ export default function Banner() {
           </Heading>
           <Text as="p" variant="heroSecondary">
             - consultancy for blockchain / crypto / web3 <br></br>
-            - is your business considering the token economy : read then call.<br></br> - or just call. 
+            - is your business considering the token economy : read then call.<br></br> - or just call. +45 5171 4334 
           </Text>
           {/* <Flex>
             <Button variant="whiteButton" aria-label="Get Started">
