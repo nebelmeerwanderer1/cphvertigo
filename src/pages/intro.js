@@ -12,29 +12,29 @@ import { StickyProvider } from "contexts/app/app.provider";
 import theme from "theme";
 
 const data = {
-  subTitle: "is this even relevant for you",
-  title: "what you will find on this web site",
+  subTitle: "Is this even relevant for you",
+  title: "What you will find on this web site",
   features: [
     {
       id: 2,
       imgSrc: Secure,
       altText: "Secured Contents",
       title: "our offerings",
-      text: "what copenhagen vertigo offers : product and business development consultancy",
+      text: "What copenhagen vertigo offers : Product and business development consultancy",
     },
     {
       id: 2,
       imgSrc: Secure,
       altText: "Secure Contents",
-      title: "who we are",
-      text: "contact details for copenhagen vertigo ",
+      title: "Who we are",
+      text: "Contact details for copenhagen vertigo ",
     },    
         {
       id: 2,
       imgSrc: Secure,
       altText: "Secure Contents",
       title: "get some web3 experience",
-      text: "gentle introduction to web3 and descriptions of the types of tokens that are used in blockchain and crypto",
+      text: "Gentle introduction to web3 and descriptions of the types of tokens that are used in blockchain and crypto",
     },
        
   ],
@@ -68,8 +68,11 @@ export default function Intro() {
             onClick={handleClick}
             
           >
-           <a> back to Home </a>
+           <a> back to home </a>
           </Button>
+          <p>
+            <br></br>
+          </p>
 
           <Grid gap="15px 0" columns={1} sx={styles.grid}>
             {data.features.map((item) => (

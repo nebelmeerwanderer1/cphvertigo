@@ -14,79 +14,79 @@ import Link from "next/link";
 const data = [
   {
     id: 1,
-    title: "web3 feels slower than the normal 'internet'",
+    title: "Web3 feels slower than the 'normal internet'",
     description:
-      "you are directly interacting with a globally distributed network. it takes a few seconds for the world to agree and send a confirmation back to you. it is common in web2 to send a confirmation right away but it is really just a message saying 'we have received the order, you can trust us, we will do it later'",
+      "You are directly interacting with a globally distributed network. It takes a few seconds for the world to agree and send a confirmation back to you. There is a tradeoff between global consensus and speed",
     avatar: Avatar1,
-    name: "5 things you need to be aware of (#1)",
-    designation: "August 2022",
+    name: "",
+    designation: "Things you should be aware of (#1)",
     review: 4,
   },
   {
     id: 2,
-    title: "watch the heartbeats of web3",
+    title: "Watch the heartbeats of web3",
     description:
-      "each blockchain runs on a heartbeat. at each heartbeat a new block of transactions is confirmed. have a look at an explorer where you can see the heartbeat live. a little bit of magic previously only available to technicians. here is a link to a bitcoin which happens to have one of the slowest heartbeats",
+      "Each blockchain runs on a heartbeat. At each heartbeat a new block of transactions is confirmed. Have a look at an explorer where you can see the heartbeat live. A little bit of magic previously only available to technicians. Here is a link to a bitcoin explorer - bitcoin has one of the slowest heartbeats",
     avatar: Avatar2,
-    name: "web3 hands-on experience",
-    designation: "August 2022",
+    name: "",
+    designation: "web3 hands-on experience",
     link: "https://btcscan.org/",
     linkname: "btcscan"
   },
   {
     id: 3,
-    title: "web3 is more than just blockchains",
+    title: "Web3 is more than just blockchains",
     description:
-      "blockhains are at the center of the internet of value. but there are other decentralized components needed to run a token economy. to name a few: oracles transmit external world information (e.g. exchange rates) to the blockchain, wallets hold your private keys, decentralized storage saves the files shown in you nfts, indexers handle events so you see the blockchains state on your screen.",
+      "Blockhains are at the center of the internet of value. But there are other decentralized components needed to run a token economy. To name a few: oracles transmit external world information (e.g. exchange rates) to the blockchain, wallets hold your private keys, decentralized storage saves the files shown in you nfts, indexers handle events so you see the blockchains state on your screen.",
     avatar: Avatar3,
-    name: "5 things you need to be aware of (#2)",
-    designation: "august 2022",
+    name: "",
+    designation: "Things you should be aware of (#2)",
     review: 5,
   },
   {
     id: 4,
-    title: "visit the world's largest nft marketplace",
+    title: "Visit the world's largest nft marketplace",
     description:
-      "explore the collections of nfts that are on shown and sale at OpenSea. Notice the small icon in the top right corner. as of today there are more than 2 mio collections and 80 mio nfts. nfts are still uncharted waters",
+      "Explore the collections of nfts (see below for explanation) that are on shown and sale at OpenSea. Notice the small icon in the top right corner. As of today there are more than 2 mio collections and 80 mio nfts",
     avatar: Avatar4,
-    name: "web3 hands-on experience",
-    designation: "August 2022",
+    name: "",
+    designation: "web3 hands-on experience",
     link: "https://opensea.io/",
     linkname: "opensea",
     review: 4,
   },
   {
     id: 5,
-    title: "some web3 names can be misleading",
+    title: "Some web3 names can be misleading",
     description:
-      "there is still a lot of chaos and experimenting in web3 (this also makes it so exciting). beware that terms can be misleading. blockchains are not 'trustless', you don't have tokens or money in your 'wallet', some stablecoins are not stable at all, some nfts are less unique than bank notes, never approve anything in your wallet that you don't know what is",
+      "There is still a lot of chaos and experimenting in web3 (this also makes it so exciting). Beware that terms can be misleading. Blockchains are not 'trustless', you don't have tokens or money in your 'wallet', some stablecoins are not stable at all, some nfts are less unique than bank notes, never approve anything in your wallet that you don't know what is",
     avatar: Avatar4,
-    name: "5 things you need to be aware of (#3)",
-    designation: "august 2022",
+    name: "",
+    designation: "Things you should be aware of (#3)",
     // link: "https://opensea.io/",
     // linkname: "opensea",
     review: 4,
   },
   {
     id: 6,
-    title: "get your first account",
+    title: "Get your first account",
     description:
-      "first thing to do when you want to be part of the token economy is to get a wallet so you can create an account to hold your tokens. metamask is the most used wallet and the one that other wallets compare themselves against.",
+      "First thing to do when you want to be part of the token economy is to get a wallet so you can create an account to hold your tokens. Metamask is the most used wallet and the one that other wallets compare themselves against. Get your account.",
     avatar: Avatar4,
-    name: "web3 hands-on experience",
-    designation: "August 2022",
+    name: "",
+    designation: "Web3 hands-on experience",
     link: "https://metamask.io/",
     linkname: "metamask",
     review: 4,
   },
   {
     id: 7,
-    title: "it is not difficult to create tokens",
+    title: "It is not difficult to create tokens",
     description:
-      "there are thousands of cryptocurrencies and millions of nfts. it is really easy to mint tokens but it is difficult to create a product and social acceptance. bitcoin is so amazing because it is an exceptional product and has evolved to become socially accepted. conversely, tokens are not just tokens. a closer look is required.", 
+      "There are thousands of cryptocurrencies and millions of nfts. It is easy to mint tokens but it is difficult to create a product and social acceptance. Bitcoin is so amazing because it is an exceptional product and has evolved to become socially accepted. Tokens have many different purposes. Do your research or ask someone you trust.", 
     avatar: Avatar4,
-    name: "5 things you need to be aware of (#3)",
-    designation: "august 2022",
+    name: "",
+    designation: "Things you should be aware of (#4)",
     // link: "https://opensea.io/",
     // linkname: "opensea",
     review: 4,
@@ -95,12 +95,24 @@ const data = [
     id: 8,
     title: "visit a local nft marketplace",
     description:
-      "nfts are often created - 'minted' as it is called in web3 - locally so they are customized to specific needs. cphvertigo is also in on this game and you can have a peak at our solution and soon mint your first nft here.",
+      "Nfts are often created - 'minted' as it is called in web3 - locally so they are customized to specific needs. Cphvertigo is also in on this game and you can have a peak at our solution and soon mint your first nft here.",
     avatar: Avatar4,
-    name: "web3 hands-on experience",
-    designation: "August 2022",
+    name: "",
+    designation: "web3 hands-on experience",
     link: "https://nftmintermarketplace.vercel.app/",
-    linkname: "nft marketplace",
+    linkname: "Nft marketplace",
+    review: 4,
+  },
+  {
+    id: 7,
+    title: "Scam alert! Stay sceptical",
+    description:
+      "The industry is very immature. Many projects are based on a type of ponzi scheme logic. Others display a complete disconnect between the value proposition and what is implemented.", 
+    avatar: Avatar4,
+    name: "",
+    designation: "Things you should be aware of (#5)",
+    // link: "https://opensea.io/",
+    // linkname: "opensea",
     review: 4,
   },
   // {
@@ -157,7 +169,7 @@ export default function TestimonialCard() {
   return (
     <section id="web3testimonial" sx={{ variant: "section.testimonial" }}>
       <Container>
-        <SectionHeader slogan="web3 is a common name for technologies that run the token economy" title="steps to getting your feet wet in the token economy" />
+        <SectionHeader slogan="Web3 is a common name for technologies that run the token economy" title="Take a little tour getting your feet wet in the token economy" />
       </Container>
       <Box sx={styles.carouselWrapper}>
         <Carousel

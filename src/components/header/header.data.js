@@ -1,12 +1,12 @@
 export default [
   {
     path: "home",
-    label: "home",
+    label: "Home",
   },
   
   {
     path: "offerings",
-    label: "what we offer",
+    label: "What we offer",
   },  
   // {
   //   path: "workflow",
@@ -14,15 +14,15 @@ export default [
   // },
   {
     path: "workflow",
-    label: "who we are",
+    label: "Who we are",
   },
   
   {
     path: "web3workflow",
-    label: "experience web3",
+    label: "Experience web3",
   },
   {
     path: "feature",
-    label: "the token economy",
+    label: "The token economy",
   },
 ];

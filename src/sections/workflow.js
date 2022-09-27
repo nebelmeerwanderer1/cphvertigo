@@ -37,8 +37,8 @@ export default function WorkFlow() {
     <section sx={styles.workflow} id="workflow">
       <Container>
         <SectionHeader
-          slogan="seen and heard enough about blockchain : let's get started"
-          title="is your business ready to enter the token economy : call or write"
+          slogan="Seen and heard enough about blockchain : Let's get started"
+          title="Is your business ready to enter the token economy : Call or write"
           isWhite={true}
         />
 

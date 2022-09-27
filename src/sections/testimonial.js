@@ -14,82 +14,82 @@ import Link from "next/link";
 const data = [
     {
     id: 1,
-    title: "file timestamping on the blockchain",
+    title: "File timestamping on the blockchain",
     description:
-      "simple e-sealing solution showcasing how blockchain can support trust services. a reminder that the blockchain's at its root is a tamper proof transaction trail",
+      "Simple e-sealing solution showcasing how blockchain can support trust services. A reminder that the blockchain's at its root is a tamper proof transaction trail",
     avatar: Avatar4,
-    name: "application",
+    name: "Application",
     designation: "April 2022",
     link: "https://notary.northstake.dk/",
-    linkname: "timestamping",
+    linkname: "Timestamping",
     review: 4,
     },
     {
     id: 2,
-    title: "getting started guide",
+    title: "Getting started guide",
     description:
-      "a personal journey through the concordium developer documentation from scratch to deploying the piggy bank and cis1-wccd example smart contract on testnet.",
+      "A personal journey through the concordium developer documentation from scratch to deploying the piggy bank and cis1-wccd example smart contract on testnet.",
     avatar: Avatar2,
-    name: "community contribution",
+    name: "Community contribution",
     designation: "May 2022",
     link: "https://medium.com/p/fc531eacef6e",
-    linkname: "medium article"
+    linkname: "Medium article"
     },
     {
     id: 3,
-    title: "esealing on the blockchain",
+    title: "Esealing on the blockchain",
     description:
-      "simple e-sealing solution showcasing how blockchain can support trust services. components for creating a blockchain based signature service",
+      "Simple e-sealing solution showcasing how blockchain can support trust services. Components for creating a blockchain based signature service",
     avatar: Avatar4,
-    name: "application",
+    name: "Application",
     designation: "May 2022",
     link: "http://filesealing.newtrust.co/",
-    linkname: "e-sealing",
+    linkname: "E-sealing",
     review: 4,
     },
     {
     id: 4,
-    title: "blockchain and gatekeepers",
+    title: "Blockchain and gatekeepers",
     description:
-      "gatekeepers will be critical for the future regulatory compliant blockchain . short video on how they can work. views are through the floor :-)",
+      "Gatekeepers will be critical for the future regulatory compliant blockchain . Short video on how they can work. Views are through the floor :-)",
     avatar: Avatar4,
-    name: "thought leadership",
+    name: "Thought leadership",
     designation: "june 2022",
     link: "https://www.youtube.com/watch?v=YH3cohZG_Do&t=5s",
-    linkname: "youtube",
+    linkname: "Youtube",
     review: 4,
     },
     {
     id: 5,
     title: "Blockchains and compliance readiness",
     description:
-      "in the coming wave of regulatory inflow, the ultimate promise of blockchain and decentralization must not be forgotten. short video illustrating the sweet spot to aim for", 
+      "In the coming wave of regulatory inflow, the ultimate promise of blockchain and decentralization must not be forgotten. Short video illustrating the sweet spot to aim for", 
     avatar: Avatar4,
-    name: "thought leadership",
-    designation: "june 2022",
+    name: "Thought leadership",
+    designation: "June 2022",
     link: "https://www.youtube.com/watch?v=G6GudxTA730&t=29s",
-    linkname: "youtube",
+    linkname: "Youtube",
     review: 4,
     },  
     {
     id: 6,
     title: "Why is regulation readiness becoming a recurrent topic in the blockchain sphere",
     description:
-      "in a nutshell: businesses cannot have one business model and set of standards when they offer services in the current setup - and another in web3.",
+      "In a nutshell: businesses cannot have one business model and set of standards when they offer services in the current setup - and another in web3.",
     avatar: Avatar4,
-    name: "interview",
+    name: "Interview",
     designation: "August 2022",
     link: "https://www.youtube.com/watch?v=pbe1Jt0wcXA",
-    linkname: "youtube",
+    linkname: "Youtube",
     review: 4,
   }, 
   {
     id: 7,
     title: "What do you own when you buy an NFT?",
     description:
-      "important article from Galaxy that web3 ip rights - and hence the nft concept - is in poor condition: 'without solving these detrimental problems of IP ownership, then the NFT landscape will evidently formulate into Web2 products that are marketed and disguised as Web3 products' ", 
+      "Important article from Galaxy that web3 ip rights - and hence the nft concept - is in poor condition: 'without solving these detrimental problems of IP ownership, then the NFT landscape will evidently formulate into Web2 products that are marketed and disguised as Web3 products' ", 
     avatar: Avatar4,
-    name: "thought paper",
+    name: "Thought paper",
     designation: "August 2022",
     link: "https://www.galaxy.com/research/insights/a-survey-of-nft-licenses-facts-and-fictions/",
     linkname: "A Survey of NFT Licenses: Facts & Fictions",
@@ -97,14 +97,14 @@ const data = [
   },  
   {
     id: 8,
-    title: "sample nft marketplace",
+    title: "Sample nft marketplace",
     description:
-      "sample ethereum based nft marketplace built using solidity, theGraph and javascript. deployed on the goerli net",
+      "Sample ethereum based nft marketplace built using solidity, theGraph and javascript. Deployed on the goerli net",
     avatar: Avatar3,
-    name: "application",
-    designation: "september 2022",
+    name: "Application",
+    designation: "September 2022",
     link: "https://nftmintermarketplace.vercel.app/",
-    linkname: "nft marketplace"
+    linkname: "Nft marketplace"
   },
 ];
 

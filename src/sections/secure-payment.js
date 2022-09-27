@@ -9,9 +9,9 @@ import PaymentPattern from "assets/payment-pattern.png";
 
 const data = {
   subTitle: "Keld Stehr Nielsen",
-  title: "copenhagen vertigo",
+  title: "Copenhagen Vertigo",
   description:
-    "copenhagen vertigo will clarify token economy opportunities with you. we offer the combination of i) web3 experience and ii) product management methodology. we know how to build relevant blockchain solutions.",
+    "Copenhagen Vertigo will clarify token economy opportunities with you. We offer the combination of i) Web3 experience and ii) Product management methodology. We know how to build relevant blockchain solutions.",
   contact: "stehr.nielsen@gmail.com , +45 51714334",
   btnName: "Learn More",
   btnURL: "#",

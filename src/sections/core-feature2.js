@@ -9,21 +9,21 @@ import Secure from "assets/core-feature/cardano.svg";
 
 const data = {
   subTitle: "the blockchains we work with",
-  title: "the largest ecosystem that give you maximum global & local exposure",
+  title: "The largest ecosystem that give you maximum global & local exposure",
   features: [
     {
       id: 2,
       imgSrc: Secure,
       altText: "Secure Contents",
-      title: "be guided by what is feasible",
-      text: "good product development is guided and inspired by technology. we have first hand experience with the ethereum ecosystem. the world's largest and most powerful by far.",
+      title: "Be guided by what is feasible",
+      text: "Good product development is guided and inspired by technology. We have first hand experience with the ethereum ecosystem. The world's largest and most powerful by far.",
     },
     {
       id: 1,
       imgSrc: Briefcase,
       altText: "Smart Features",
-      title: "don't let your dreams get stuck in technology",
-      text: "product development should never be dictated by technology. we speak business and product language.",
+      title: "Be dictated by your business idea",
+      text: "Digital product development should never be dictated by technology. We speak business and product language.",
     },
   ],
 };

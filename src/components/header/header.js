@@ -50,7 +50,7 @@ export default function Header({ className }) {
             onClick={handleClick}
             
           >
-           <a> read first </a>
+           <a> Read first </a>
           </Button>
           
 

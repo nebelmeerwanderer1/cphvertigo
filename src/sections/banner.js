@@ -44,11 +44,11 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            copenhagen vertigo
+            Copenhagen Vertigo
           </Heading>
           <Text as="p" variant="heroSecondary">
-            - consultancy for blockchain / crypto / web3 <br></br>
-            - is your business considering the token economy : read then call.<br></br> - or just call. +45 5171 4334 
+            - Consultancy for blockchain / crypto / web3 <br></br>
+            - Is your business considering the token economy : Read then call.<br></br> -Or just call. +45 5171 4334 
           </Text>
           {/* <Flex>
             <Button variant="whiteButton" aria-label="Get Started">

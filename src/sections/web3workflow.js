@@ -38,9 +38,9 @@ export default function WorkFlow() {
       <Container>
         <SectionHeader
           slogan="experience.web3"
-          title="you are now passing from web2 to web3"
+          title="You are now passing from web2 to web3"
           title3="---"
-          title2=">>  mind the gap  <<"
+          title2=">>  Mind the Gap  <<"
           isWhite={true}
         />
 
