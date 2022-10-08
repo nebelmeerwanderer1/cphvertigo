@@ -100,7 +100,7 @@ const data = [
     name: "",
     designation: "web3 hands-on experience",
     link: "https://versiontwo-active-marketplace.vercel.app/",
-    linkname: "Nft marketplace",
+    linkname: "Nft factory",
     review: 4,
   },
   {

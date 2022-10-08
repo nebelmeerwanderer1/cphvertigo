@@ -104,7 +104,7 @@ const data = [
     name: "Application",
     designation: "September 2022",
     link: "https://versiontwo-active-marketplace.vercel.app/",
-    linkname: "Nft marketplace"
+    linkname: "Nft factory"
   },
 ];
 
