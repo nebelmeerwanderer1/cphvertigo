@@ -99,7 +99,7 @@ const data = [
     avatar: Avatar4,
     name: "",
     designation: "web3 hands-on experience",
-    link: "https://nftmintermarketplace.vercel.app/",
+    link: "https://versiontwo-active-marketplace.vercel.app/",
     linkname: "Nft marketplace",
     review: 4,
   },
