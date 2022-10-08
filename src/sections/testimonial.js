@@ -97,13 +97,13 @@ const data = [
   },  
   {
     id: 8,
-    title: "Sample nft marketplace",
+    title: "Nft factory",
     description:
-      "Sample ethereum based nft marketplace built using solidity, theGraph and javascript. Deployed on the goerli net",
+      "Sample ethereum based nft factory built using solidity, theGraph and javascript. Deployed on the goerli net",
     avatar: Avatar3,
     name: "Application",
     designation: "September 2022",
-    link: "https://nftmintermarketplace.vercel.app/",
+    link: "https://versiontwo-active-marketplace.vercel.app/",
     linkname: "Nft marketplace"
   },
 ];

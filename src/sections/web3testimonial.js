@@ -93,9 +93,9 @@ const data = [
   },
   {
     id: 8,
-    title: "visit a local nft marketplace",
+    title: "visit a local nft factory",
     description:
-      "Nfts are often created - 'minted' as it is called in web3 - locally so they are customized to specific needs. Cphvertigo is also in on this game and you can have a peak at our solution and soon mint your first nft here.",
+      "Nfts are often created - 'minted' as it is called in web3 - locally so they are customized to specific needs. Cphvertigo has a small factory which can be used to demo and experiment with various concepts. You can mint your first NFT here.",
     avatar: Avatar4,
     name: "",
     designation: "web3 hands-on experience",
